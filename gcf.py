@@ -14,3 +14,4 @@ def factor2():
         else:
             i+1
 factor1()
+factor2()
