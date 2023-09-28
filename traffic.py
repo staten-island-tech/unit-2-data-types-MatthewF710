@@ -1,10 +1,10 @@
-eastboundtraffic=True
-westboundtraffic=False
+eastboundtraffic=False
+westboundtraffic=True
 
-if eastboundtraffic == True:
-    if westboundtraffic == True:
+def check(eastboundtraffic, westboundtraffic):
+    if type(eastboundtraffic) != bool or type(westboundtraffic) != bool:
+        print("Error")
+    if eastboundtraffic == westboundtraffic:
         print("False")
-    if westboundtraffic == False:
+    else:
         print("True")
-else:
-    print("True")
